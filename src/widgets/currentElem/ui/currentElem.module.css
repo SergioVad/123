@@ -1,0 +1,1451 @@
+.CurrentElem {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider_block {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.slider {
+    width: 1000px;
+}
+
+.slider_wrapper_items_current_elem {
+    width: 920px;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.cross {
+    position: absolute;
+    top: 10px;
+    stroke: red;
+    width: 30px;
+    right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.second_slider {
+    position: relative;
+    width: 1000px;
+    height: 140px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper_items_current_elem {
+    display: flex;
+    transition: all .2s;
+}
+
+.wrapper_items_current_elem:hover {
+    .wrapper_icon_prev_2, .wrapper_icon_next_2 {
+        background-color: gray;
+    }
+    .icon_prev_2, .icon_next_2 {
+        stroke: white;
+    }
+}
+
+.wrapper_image_elem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207.5px;
+    height: 140px;
+}
+
+.wrapper_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    user-select: none;
+}
+
+.wrapper_icon_next {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.main_arrow_next, .main_arrow_prev {
+    width: 40px;
+    stroke: black;
+}
+
+.main_arrow_prev {
+    transform: rotate(180deg);
+}
+
+.wrapper_icon_next:hover {
+    opacity: 1;
+}
+
+.wrapper_icon_prev {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.wrapper_icon_prev:hover {
+    opacity: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 10px 30px;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+}
+
+.h2_price {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.descr_item {
+    width: 400px;
+    font-size: 22px;
+}
+
+.descr h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.info h2:first-child {
+    margin: 0;
+}
+
+.wrapperIconWhatsapp {
+    border: 1px solid grey;
+    padding: 4px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.wrapperIconWhatsapp:hover {
+    border: 1px solid green;
+    .icon_svg_whatsapp {
+        fill: green;
+    }
+}
+
+.icon_svg_whatsapp {
+    width: 41px;
+    height: 42px;
+    fill: black;
+    transition: fill 0.3s;
+}
+
+.icon_svg_phone {
+    width: 30px;
+    height: 30px;
+    fill: black;
+    path {
+        transition: fill 0.3s;
+    }
+}
+
+.number {
+    border: 1px solid grey;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+    transition: all 0.3s;
+}
+.number:hover {
+    border: 1px solid blue;
+    color: blue;
+    .icon_svg_phone path {
+        fill: blue
+    }
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts_block {
+    margin-top: 60px;
+}
+
+.button_buy {
+    border: none;
+    background-color: rgb(218, 187, 17);
+    padding: 5px 20px;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: transform 0.1s;
+}
+
+.button_buy:hover {
+    transform: scale(1.05);
+}
+
+.secondSlider_block {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.descr_item {
+    position: relative;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+    width: 450px;
+}
+
+.contacts_block span {
+    font-size: 11px;
+}
+
+.descr {
+    margin-top: 50px;
+}
+
+
+.desrc_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.full_descr {
+    margin-top: 30px;
+}
+
+.wrapper_full_descr {
+    display: flex;
+    gap: 100px;
+}
+
+.first_half {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.wrapperImg {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_half {
+    margin-top: 50px;
+    width: 50%;
+    color: grey;
+    font-weight: 500;
+}
+
+.b {
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+.modal {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    display: flex;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0;
+}
+
+.blackout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.modal_content {
+    z-index: 1000000;
+    text-align: center;
+    color: black;
+    /* width: 900px; */
+    width: 60vw;
+    min-height: 60vh;
+    background-color: white;
+    opacity: 0;
+    scale: 0.2;
+    transition:  all .5s;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_img {
+    width: 65%;
+}
+
+.modal_text {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.item_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item_current_elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.info_block_price {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.wrapper_icon_prev_2, .wrapper_icon_next_2 {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.wrapper_icon_prev_2:hover, .wrapper_icon_next_2:hover {
+    opacity: 0.6;
+}
+
+.wrapper_icon_prev_2 {
+    left: 5px;
+    bottom: 40px;
+    transform: rotate(180deg);
+}
+
+.wrapper_icon_next_2 {
+    right: 5px;
+    bottom: 40px;
+}
+
+.icon_prev_2, .icon_next_2 {
+    width: 20px;
+    stroke: black;
+    transition: all .2s;
+    user-select: none;
+}
+
+.block_info_product {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s;
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1550px) {
+    .info {
+        width: 400px;
+        padding: 10px 30px;
+    }
+    .slider {
+        width: 850px;
+        margin-top: 15px;
+    }
+    .wrapper_image {
+        height: 400px;
+    }
+    .number {
+        padding: 10px 25px;
+    }
+    .wrapperIconWhatsapp {
+        padding: 4px 25px;
+    }
+    .contacts_block {
+        margin-top: 30px;
+    }
+    .second_slider {
+        width: 850px;
+        height: 140px;
+        margin-top: 10px;
+    }
+    .slider_wrapper_items_current_elem {
+        width: 770px;
+        display: flex;
+    }
+    .wrapper_image_elem {
+        width: 170px;
+        height: 120px;
+    }
+    .descr_item {
+        width: 400px;
+        font-size: 22px;
+    }
+    .h2_price {
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .descr h2 {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1349px) {
+    .modal_text {
+        font-size: 16px;
+    }
+    .wrapper_icon_prev_2 {
+        left: 15px;
+        bottom: 35px;
+    }
+    .main_arrow_next, .main_arrow_prev {
+        width: 35px;
+    }
+    .h2_price {
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .wrapper_icon_next_2 {
+        right: 15px;
+        bottom: 35px;
+    }
+    .second_slider {
+        width: 700px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .slider_wrapper_items_current_elem {
+        width: 620px;
+    }
+    .wrapper_image_elem {
+        width: 140px;
+        height: 100px;
+    }
+    .info {
+        width: 350px;
+        padding: 10px 15px;
+    }
+    .slider {
+        width: 700px;
+        margin-top: 20px;
+    }
+    .wrapper_image {
+        height: 370px;
+    }
+    .info_block_price {
+        margin-top: 30px;
+    }
+    .descr {
+        margin-top: 50px;
+    }
+    .contacts_block {
+        margin-top: 30px;
+    }
+    .number {
+        padding: 10px 20px;
+    }
+    .wrapperIconWhatsapp {
+        padding: 6px 20px;
+    }
+    .icon_svg_whatsapp {
+        width: 35px;
+        height: 35px;
+    }
+    .icon_svg_phone {
+        width: 25px;
+        height: 25px;
+    }
+    .descr_item {
+        width: 350px;
+        font-size: 22px;
+    }
+    .icon_prev_2, .icon_next_2 {
+        width: 15px;
+    }
+    .wrapper_icon_prev_2, .wrapper_icon_next_2 {
+        width: 20px;
+        height: 50px;
+    }
+    .descr h2 {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+    .modal_text {
+        font-size: 16px;
+    }
+    .wrapper_icon_prev_2 {
+        left: 6px;
+        bottom: 35px;
+    }
+    .button_buy {
+        padding: 0 14px;
+        font-size: 14px;
+    }
+    .main_arrow_next, .main_arrow_prev {
+        width: 30px;
+    }
+    .descr_item {
+        width: 330px;
+        font-size: 20px;
+    }
+    .descr h2 {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .wrapper_icon_next_2 {
+        right: 6px;
+        bottom: 35px;
+    }
+    .icon_prev_2, .icon_next_2 {
+        width: 15px;
+    }
+    .wrapper_icon_prev_2, .wrapper_icon_next_2 {
+        width: 20px;
+        height: 50px;
+    }
+    .second_slider {
+        width: 600px;
+        height: 120px;
+        margin-top: 0;
+    }
+    .slider_wrapper_items_current_elem {
+        width: 540px;
+    }
+    .wrapper_image_elem {
+        width: 120px;
+        height: 100px;
+    }
+    .info {
+        width: 330px;
+        padding: 10px 15px;
+    }
+    .slider {
+        width: 600px;
+        margin-top: 20px;
+    }
+    .wrapper_image {
+        height: 330px;
+    }
+    .info_block_price {
+        margin-top: 30px;
+    }
+    .descr {
+        margin-top: 20px;
+    }
+    .second_half {
+        margin-top: 20px;
+    }
+    .contacts_block {
+        margin-top: 20px;
+    }
+    .number {
+        padding: 10px 20px;
+    }
+    .wrapperIconWhatsapp {
+        padding: 0 13px;
+    }
+    .icon_svg_whatsapp {
+        width: 30px;
+        height: 47px;
+    }
+    .icon_svg_phone {
+        width: 25px;
+        height: 25px;
+    }
+    .h2_price {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .small_modal_content {
+        z-index: 1000000;
+        text-align: center;
+        color: black;
+        width: 60vw;
+        min-height: 60vh;
+        background-color: white;
+        opacity: 0;
+        scale: 0.2;
+        transition:  all .5s;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .small_modal_img {
+        width: 65%;
+    }
+    
+    .small_modal_text {
+        font-size: 14px;
+    }
+    .small_full_descr {
+        margin-top: 10px;
+    }
+    .modal_text {
+        font-size: 14px;
+    }
+    .small_second_slider {
+        width: 715px;
+        height: 120px;
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .small_slider_wrapper_items_current_elem {
+        width: 600px;
+        overflow-x: hidden;
+    }
+    .wrapper_icon_prev_2 {
+        left: 20px;
+        bottom: 30px;
+    }
+    
+    .wrapper_icon_next_2 {
+        right: 20px;
+        bottom: 30px;
+    }
+    
+    .small_wrapper_image_elem {
+        width: 135px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .small_wrapper_icon_prev, .small_wrapper_icon_next {
+        position: absolute;
+        width: 60px;
+        height: 100%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        opacity: 0.5;
+        transition: opacity 0.2s;
+        background-color: rgba(0, 0, 0, .5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .small_wrapper_icon_prev {
+        top: 0;
+        left: 0;
+    }
+    .small_wrapper_icon_next {
+        top: 0;
+        right: 0;
+    }
+    
+    .small_wrapperImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60%;
+    }
+
+    .small_item_img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+
+    .small_item_current_elem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        width: 45%;
+        height: 220px;
+        text-align: center;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+    }
+    .small_slider {
+        margin: 0 auto;
+        width: 600px;
+        margin-top: 30px;
+    }
+    .small_wrapper_image {
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Small_CurrentElem > h2 {
+        margin-top: 15px;
+    }
+    .small_wrapper_items_current_elem{
+        display: flex;
+        margin-top: 10px;
+        width: 100%;
+        overflow-x: scroll;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+    }
+    .small_items_current_elem {
+        display: flex;
+        gap: 10px;
+    }
+    .small_block_price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 30px;
+        h2 {
+            margin: 0;
+        };
+        span {
+          font-size: 13px;  
+        }
+    }
+    .small_button_buy {
+        border: none;
+        background-color: rgb(218, 187, 17);
+        padding: 3px 10px;
+        border-radius: 5px;
+        transition: padding 0.3s;
+        font-size: 14px;
+    }
+    .small_contacts {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .small_price {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .small_descr_1 {
+        display: flex;
+        gap: 30px;
+    }
+    .demensions, .info_product {
+        width: 50%;
+    }
+    .second_header {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .small_descr_2 {
+        margin-top: 50px;
+    }
+    .small_descr {
+        width: 100%;
+    }
+
+    .small_wrapperIconWhatsapp {
+        border: 1px solid grey;
+        padding: 5px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .small_number {
+        border: 1px solid grey;
+        padding: 8px 15px;
+        border-radius: 10px;
+        font-size: 16px;
+        display: flex;
+        gap: 5px;
+        transition: all 0.3s;
+    }
+    .small_icon_svg_whatsapp {
+        width: 30px;
+        height: 31px;
+        fill: black;
+    }
+    
+    .small_icon_svg_phone {
+        width: 25px;
+        height: 25px;
+        fill: black;
+    }
+    .small_h2_price {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal_text {
+        font-size: 14px;
+    }
+    .small_slider {
+        margin: 0 auto;
+        width: 450px;
+        margin-top: 20px;
+    } 
+    .small_descr_1 {
+        margin-top: 30px;
+        display: block;
+    }
+    .demensions, .info_product {
+        width: 100%;
+    }
+    .second_header {
+        font-weight: bold;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .small_wrapper_image {
+        height: 330px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .desrc_flex {
+        font-size: 15px;    
+    }
+
+    .small_second_slider {
+        width: 500px;
+        margin-top: 20px;
+    }
+    .small_slider_wrapper_items_current_elem {
+        width: 450px;
+    }
+    .block_descr_subItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+    }
+    .small_wrapper_image_elem {
+        width: 105px;
+        height: 100px;
+    }
+    .icon_prev_2, .icon_next_2 {
+        width: 15px;
+    }
+    .wrapper_icon_prev_2, .wrapper_icon_next_2 {
+        width: 25px;
+        height: 50px;
+    }
+    .wrapper_icon_prev_2 {
+        left: -5px;
+        bottom: 44px;
+    }
+    
+    .wrapper_icon_next_2 {
+        right: -5px;
+        bottom: 44px;
+    }
+    .small_wrapperIconWhatsapp {
+        border: 1px solid grey;
+        padding: 5px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .small_number {
+        border: 1px solid grey;
+        padding: 8px 15px;
+        border-radius: 10px;
+        font-size: 16px;
+        display: flex;
+        gap: 5px;
+        transition: all 0.3s;
+    }
+    .small_icon_svg_whatsapp {
+        width: 30px;
+        height: 31px;
+        fill: black;
+    }
+    
+    .small_icon_svg_phone {
+        width: 25px;
+        height: 25px;
+        fill: black;
+    }
+    
+    .small_button_buy {
+        border: none;
+        background-color: rgb(218, 187, 17);
+        padding: 3px 10px;
+        border-radius: 5px;
+        transition: padding 0.3s;
+        font-size: 14px;
+    }
+    .small_descr_1 {
+        margin-top: 0;
+        font-size: 15px;
+    }
+
+    .small_descr_2 {
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+
+    .Small_CurrentElem > h2 {
+        margin-top: 15px;
+    }
+    .small_wrapper_items_current_elem{
+        display: flex;
+        margin-top: 10px;
+        width: 100%;
+        overflow-x: scroll;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+    }
+    .small_items_current_elem {
+        display: flex;
+        gap: 10px;
+    }
+    .small_h2_price {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .small_block_price {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        h2 {
+            margin: 0;
+        };
+        span {
+          font-size: 13px;  
+        }
+    }
+    .small_contacts {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .small_descr {
+        width: 100%;
+    }
+    
+    .small_wrapper_icon_prev, .small_wrapper_icon_next {
+        position: absolute;
+        width: 50px;
+        height: 100%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        opacity: 0.5;
+        transition: opacity 0.2s;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    .small_wrapper_icon_prev {
+        top: 0;
+        left: 0;
+    }
+    .small_wrapper_icon_next {
+        top: 0;
+        right: 0;
+    }
+    
+    .small_wrapperImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60%;
+    }
+
+    .small_item_img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+
+    .small_item_current_elem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        width: 45%;
+        height: 220px;
+        text-align: center;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+    }
+    .b {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 410px) and (max-width: 767px) {
+    .small_modal_content {
+        width: 90vw;
+        padding: 15px;
+        gap: 10px;
+    }
+    
+    .small_modal_img {
+        width: 80%;
+    }
+    
+    .small_modal_text {
+        font-size: 14px;
+    }
+    .modal_text {
+        font-size: 14px;
+    }
+    .small_slider {
+        margin: 0 auto;
+        width: 358px;
+        margin-top: 20px;
+    }
+    .small_wrapper_image {
+        height: 232px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon_prev_2, .icon_next_2 {
+        width: 10px;
+    }
+    .small_second_slider {
+        width: 358px;
+        margin-top: 10px;
+    }
+    .wrapper_icon_prev_2, .wrapper_icon_next_2 {
+        width: 20px;
+        height: 40px;
+    }
+    .wrapper_icon_prev_2 {
+        left: -21px;
+        bottom: 15px;
+    }
+    
+    .wrapper_icon_next_2 {
+        right: -21px;
+        bottom: 15px;
+    }
+    .small_slider_wrapper_items_current_elem {
+        width: 358px;
+        overflow-x: hidden;
+    }
+    .small_wrapper_image_elem {
+        width: 82px;
+        height: 70px;
+    }
+    .small_second_slider {
+        height: 70px;
+    }
+    .block_descr_subItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .small_wrapperImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60%;
+    }
+
+    .small_item_img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .small_wrapperIconWhatsapp {
+        border: 1px solid grey;
+        padding: 5px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .small_number {
+        border: 1px solid grey;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        display: flex;
+        gap: 5px;
+        transition: all 0.3s;
+    }
+    .small_icon_svg_whatsapp {
+        width: 30px;
+        height: 31px;
+        fill: black;
+    }
+    
+    .small_icon_svg_phone {
+        width: 25px;
+        height: 25px;
+        fill: black;
+    }
+    
+    .small_button_buy {
+        border: none;
+        background-color: rgb(218, 187, 17);
+        padding: 3px 5px;
+        border-radius: 5px;
+        transition: padding 0.3s;
+        font-size: 13px;
+    }
+    
+    .small_price {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+    .small_descr_1 {
+        display: block;
+        font-size: 14px;
+    }
+    .info_product, .demensions {
+        width: 100%;
+    }
+
+    .small_descr_2 {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    .b {
+        font-size: 16px;
+    }
+
+    .Small_CurrentElem > h2 {
+        margin-top: 15px;
+    }
+    .small_wrapper_items_current_elem{
+        margin-top: 10px;
+        overflow-x: scroll;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+        display: flex;
+        gap: 10px;
+    }
+
+    .small_item_current_elem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        width: 50%;
+        height: 220px;
+        text-align: center;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+    }
+    .small_block_price {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+        h2 {
+            margin: 0;
+        };
+        span {
+          font-size: 13px;  
+        }
+    }
+    .small_contacts {
+        width: 100%;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .small_descr {
+        width: 100%;
+    }
+    
+    .small_wrapper_icon_prev, .small_wrapper_icon_next {
+        width: 30px;
+    }
+    .small_wrapper_icon_prev {
+        top: 0;
+        left: 0;
+    }
+    .small_wrapper_icon_next {
+        top: 0;
+        right: 0;
+    }
+    .small_h2_price {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .second_header {
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .desrc_flex {
+        font-size: 14px;    
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 409px) {
+    h2 {
+        font-size: 18px !important;
+    }
+    .small_modal_content {
+        width: 90vw;
+        padding: 15px;
+        gap: 10px;
+    }
+    
+    .small_modal_img {
+        width: 80%;
+    }
+    
+    .small_modal_text {
+        font-size: 13px;
+    }
+    .modal_text {
+        font-size: 14px;
+    }
+    .second_header {
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .small_h2_price {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .b {
+        font-size: 16px !important;
+    }
+    .small_slider {
+        margin: 0 auto;
+        width: 250px;
+        margin-top: 15px;
+    }
+    .small_wrapper_image {
+        height: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon_prev_2, .icon_next_2 {
+        width: 10px;
+    }
+    .small_second_slider {
+        width: 250px;
+        margin-top: 10px;
+    }
+    .wrapper_icon_prev_2, .wrapper_icon_next_2 {
+        width: 20px;
+        height: 40px;
+    }
+    .wrapper_icon_prev_2 {
+        left: -21px;
+        bottom: 15px;
+    }
+    
+    .wrapper_icon_next_2 {
+        right: -21px;
+        bottom: 15px;
+    }
+    .small_slider_wrapper_items_current_elem {
+        width: 250px;
+        overflow-x: hidden;
+    }
+    .small_wrapper_image_elem {
+        width: 80px;
+        height: 70px;
+    }
+    .small_second_slider {
+        height: 70px;
+    }
+    .block_descr_subItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .small_wrapperImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60%;
+    }
+
+    .small_item_img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .small_wrapperIconWhatsapp {
+        border: 1px solid grey;
+        padding: 5px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .small_number {
+        border: 1px solid grey;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        display: flex;
+        gap: 5px;
+        transition: all 0.3s;
+    }
+    .small_icon_svg_whatsapp {
+        width: 30px;
+        height: 31px;
+        fill: black;
+    }
+    
+    .small_icon_svg_phone {
+        width: 25px;
+        height: 25px;
+        fill: black;
+    }
+    
+    .small_button_buy {
+        border: none;
+        background-color: rgb(218, 187, 17);
+        padding: 3px 5px;
+        border-radius: 5px;
+        transition: padding 0.3s;
+        font-size: 12px;
+    }
+    .small_descr_1 {
+        font-size: 13px;
+        margin-top: 0;
+        display: block;
+    }
+    .info_product, .demensions {
+        width: 100%;
+    }
+    .small_descr_2 {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    .Small_CurrentElem > h2 {
+        margin-top: 15px;
+    }
+    .small_wrapper_items_current_elem{
+        margin-top: 10px;
+        overflow-x: scroll;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+        display: flex;
+        gap: 10px;
+    }
+
+    .small_item_current_elem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        width: 50%;
+        height: 220px;
+        text-align: center;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,.06), 0 2px 2px 0 rgba(0,0,0,.12);
+    }
+    .small_block_price {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+        h2 {
+            margin: 0;
+        };
+        span {
+          font-size: 13px;  
+        }
+    }
+    .small_contacts {
+        width:100%;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .small_descr {
+        width: 100%;
+    }
+    
+    .small_wrapper_icon_prev, .small_wrapper_icon_next {
+        width: 30px;
+    }
+    .small_wrapper_icon_prev {
+        top: 0;
+        left: 0;
+    }
+    .small_wrapper_icon_next {
+        top: 0;
+        right: 0;
+    }
+    .small_full_descr {
+        margin-top: 0;
+    }
+    .desrc_flex {
+        font-size: 13px;    
+    }
+}

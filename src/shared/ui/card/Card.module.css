@@ -1,0 +1,161 @@
+.Card {
+    width: 18.4%;
+    padding: 12px;
+    border: 1px solid lightgray;
+    margin-top: 2%;
+}
+
+.link, .link_header, .link_button {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.wrapper_img {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_name {
+    height: 50px;
+}
+
+.link_header {
+    font-weight: 600;
+}
+
+.link_button {
+    background-color: #d82626;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.proportions {
+    margin-top: 15px;
+    font-size: 14px;
+    span {
+        font-weight: bold;
+    }
+}
+
+.bottom_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.past_price {
+    display: flex;
+    align-items: center;
+}
+
+.num_past_price {
+    color: #BDBDBD;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.discount {
+    color: #d82626;
+    border: 1px solid;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.present_price {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1550px) {
+    .wrapper_img {
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Card {
+        width: 24.25%;
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .wrapper_img {
+        height: 120px;
+    }
+    .block_name {
+        font-size: 14px;
+    }
+    .proportions {
+        font-size: 12px;
+    }
+    .discount {
+        padding: 0px 5px;
+        font-size: 14px;
+    }
+    .num_past_price {
+        font-size: 14px;
+    }
+    .present_price {
+        font-size: 20px;
+    }
+    .link_button {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Card {
+        width: 48%;
+        margin-top: 2%;
+    }
+    .wrapper_img {
+        height: 140px;
+    }
+    .block_name {
+        font-size: 16px;
+    }
+    .proportions {
+        font-size: 14px;
+    }
+    .discount {
+        padding: 0px 5px;
+        font-size: 16px;
+    }
+    .num_past_price {
+        font-size: 16px;
+    }
+    .present_price {
+        font-size: 22px;
+    }
+    .link_button {
+        padding: 6px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Card {
+        width: 100%;
+        margin-top: 1%;
+    }
+    .wrapper_img {
+        height: 200px;
+    }
+}

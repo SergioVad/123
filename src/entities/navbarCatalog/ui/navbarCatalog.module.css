@@ -1,0 +1,48 @@
+.allProducts_category {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.link {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hr {
+    width: 3px;
+    opacity: 1;
+    margin: 0;
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subCatalog {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.subCatalog a:hover {
+    color: rgb(117, 108, 0);
+}
+
+
+.headerSubCatalog {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.small_allProducts_category {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

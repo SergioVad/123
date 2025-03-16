@@ -1,0 +1,41 @@
+.currentElement {
+    color: black;
+}
+
+.link {
+    color: gray;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: rgb(218, 187, 17);
+}
+
+.font_size {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 1201px) {
+    .font_size {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .font_size {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .font_size {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .font_size {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,85 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.servicesBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.servicesRound{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.servicesDescr {
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.servicesDescr h3 {
+    font-size: 20px;
+}
+.servicesDescr h4 {
+    font-size: 17px;
+}
+
+.small_services {
+    display: flex;
+    flex-direction: column;
+}
+
+.small_servicesBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+    
+.small_servicesDescr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .small_servicesRound{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+    .small_servicesDescr h3 {
+        font-size: 17px;
+    }
+    .small_servicesDescr h4 {
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 499px) {
+    .small_servicesRound{
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+    .small_servicesDescr h3 {
+        font-size: 16px;
+    }
+    .small_servicesDescr h4 {
+        font-size: 14px;
+    }
+}

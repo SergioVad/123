@@ -1,0 +1,394 @@
+.SliderMailFurn {
+    margin-left: 20px;
+    /* max-width: 100%; */
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+.lineImages {
+    width: 300%;
+    display: flex;
+    transition: all .5s;
+    height: 100%
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+}
+
+.blockSlider {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.textInImage_1 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 416px);
+    z-index: 10000;
+}
+
+.textInImage_2 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 287px);
+    z-index: 10000;
+}
+
+.textInImage_3 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 230px);
+    z-index: 10000;
+}
+
+.btns {
+    position: absolute;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 50px;
+    right: 50px;
+    z-index: 10000;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 70px;
+    padding: 12px;
+}
+
+.blockNavImg {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    left: calc(50% - 69px);
+    z-index: 10000;
+}
+
+    .navImg {
+        box-sizing: content-box;
+        width: 50px;
+        height: 5px;
+        margin-right: 3px;
+        margin-left: 3px;
+        cursor: pointer;
+        background-color: #fff;
+        background-clip: padding-box;
+        opacity: 0.5;
+        transition: opacity 0.6s ease;
+    }
+
+.wrapperNavImg {
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+/* @media screen and  (min-width: 1300px) and (max-width: 1600px) {
+    .SliderMailFurn {
+        height: 600px;
+    }
+} */
+
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
+    .SliderMailFurn {
+        height: 540px;
+    }
+}
+
+@media screen and  (min-width: 1200px) and (max-width: 1299px) {
+    .SliderMailFurn {
+        height: 480px;
+    }
+
+}
+
+@media screen and  (min-width: 1200px) and (max-width: 1499px) {
+        .btns {
+            bottom: 30px;
+            right: 30px;
+            width: 140px;
+        }
+        .icon {
+            width: 55px;
+        }
+    .navImg {
+        width: 45px;
+        height: 4px;
+    }
+    .textInImage_1, .textInImage_2, .textInImage_3 {
+        font-size: 18px;
+        top: calc(50% - 10px);
+    }
+
+    .textInImage_1 {
+        left: calc(50% - 315px);
+    }
+    .textInImage_2 {
+        left: calc(50% - 203px);
+    }
+    .textInImage_3 {
+        left: calc(50% - 177px);
+    }
+}
+
+@media screen and  (min-width: 1000px) and (max-width: 1199px) {
+
+    .SliderMailFurn {
+        height: 450px;
+        margin-left: 10px;
+    }
+
+    .btns {
+        bottom: 30px;
+        right: 30px;
+        width: 150px;
+    }
+    .icon {
+        width: 60px;
+    }
+
+    .textInImage_1, .textInImage_2, .textInImage_3 {
+        font-size: 16px;
+        top: calc(50% - 8px);
+    }
+
+    .textInImage_1 {
+        left: calc(50% - 298px);
+    }
+    .textInImage_2 {
+        left: calc(50% - 210px);
+    }
+    .textInImage_3 {
+        left: calc(50% - 175px);
+    }
+
+    .blockNavImg {
+        bottom: 10px;
+        left: calc(50% - 58px);
+    }
+    
+    .navImg {
+        width: 35px;
+        height: 2px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+}
+
+@media screen and  (min-width: 769px) and (max-width: 999px) {
+    .SliderMailFurn {
+        height: 380px;
+        margin-left: 10px;  
+    }
+    .textInImage_1, .textInImage_2, .textInImage_3 {
+        font-size: 14px;
+        top: calc(50% - 7px);
+    }
+
+    .textInImage_1 {
+        left: calc(50% - 253px);
+    }
+    .textInImage_2 {
+        left: calc(50% - 177px);
+    }
+    .textInImage_3 {
+        left: calc(50% - 152px);
+    }
+    .blockNavImg {
+        bottom: 10px;
+        left: calc(50% - 58px);
+    }
+    
+    .navImg {
+        width: 35px;
+        height: 2px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+    .btns {
+        width: 110px;
+        bottom: 18px;
+        right: 23px;
+    }
+    .icon {
+        width: 40px;
+        padding: 4px;
+    }
+}
+
+@media screen and  (min-width: 320px) and (max-width: 768px) {
+    .SliderMailFurn {
+        height: 350px;
+        margin: 10px 0;
+    }
+
+    .navImg {
+        width: 40px;
+    }
+    .img {
+        width: 100%;
+    }
+
+    .btns {
+        width: 120px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .icon {
+        width: 45px;
+        padding: 10px;
+    }
+
+    .blockNavImg {
+        bottom: 10px;
+        left: calc(50% - 58px);
+    }
+    .textInImage_1, .textInImage_2, .textInImage_3 {
+        font-size: 14px;
+        top: calc(50% - 7px);
+    }
+
+    .textInImage_1 {
+        left: calc(50% - 241px);
+    }
+    .textInImage_2 {
+        left: calc(50% - 155px);
+    }
+    .textInImage_3 {
+        left: calc(50% - 131px);
+    }
+}
+
+@media screen and  (min-width: 320px) and (max-width: 549px) {
+    
+    .SliderMailFurn {
+        width: 100%;
+        height: 310px;
+        margin: 10px 0;
+    }
+
+    .lineImages {
+        width: calc(92.5vw * 3);
+    }
+
+    .blockSlider {
+        width: 92.5vw;
+    }
+
+    .btns {
+        width: 100px;
+        bottom: 10px;
+        right: 20px;
+    }
+
+    .icon {
+        width: 35px;
+        padding: 5px;
+    }
+
+    .blockNavImg {
+        bottom: 0;
+        left: calc(50% - 58px);
+    }
+
+    .navImg {
+        width: 35px;
+    }
+
+    .textInImage_1, .textInImage_2, .textInImage_3 {
+        font-size: 10px;
+        top: calc(50% - 5px);
+    }
+
+    .textInImage_1 {
+        left: calc(50% - 185px);
+    }
+    .textInImage_2 {
+        left: calc(50% - 130px);
+    }
+    .textInImage_3 {
+        left: calc(50% - 104px);
+    }
+}
+
+@media screen and  (min-width: 401px) and (max-width: 470px) {
+    .img {
+        width: 98%;
+    }
+}
+
+@media screen and  (min-width: 320px) and (max-width: 400px) {
+    .img {
+        width: 96%;
+    }
+}
+
+
+@media screen and  (min-width: 320px) and (max-width: 470px) {
+    .textInImage_1, .textInImage_2, .textInImage_3 {
+        font-size: 7px;
+        top: calc(50% - 4px);
+    }
+
+    .textInImage_1 {
+        left: calc(50% - 136px);
+    }
+    .textInImage_2 {
+        left: calc(50% - 93px);
+    }
+    .textInImage_3 {
+        left: calc(50% - 78px);
+    }
+
+    .SliderMailFurn {
+        width: 100%;
+        height: 250px;
+        margin: 10px 0;
+    }
+
+    .blockSlider {
+        width: 33%;
+    }
+    
+    .blockNavImg {
+        bottom: 0;
+        left: calc(50% - 44px);
+    }
+
+    .navImg {
+        height: 2px;
+        margin-right: 0px;
+        margin-left: 3px;
+        width: 24px;
+    }
+    .btns {
+        width: 78px;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .icon {
+        width: 25px;
+        padding: 2px;
+    }
+}

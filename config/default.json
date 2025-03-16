@@ -1,0 +1,7 @@
+{
+    "localhost": false,
+    "port": 8443,
+    "mongoUri": "mongodb://admin:12345@82.148.31.29:27017/",
+    "accessSecret": "super secret from backend",
+    "refreshSecret": "super refresh key"
+}

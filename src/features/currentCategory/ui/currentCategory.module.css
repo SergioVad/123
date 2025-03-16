@@ -1,0 +1,71 @@
+.CurrentCategory {
+    display: block;
+}
+
+.admin_panel {
+    position: absolute;
+    left: 420px;
+    top: 240px;
+
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 40px; */
+    /* width: 82%; */
+    width: 100%;
+    gap: 2%;
+}
+
+.blockCurrentCategory {
+    display: flex;
+    /* margin-top: 50px; */
+}
+
+.blockSortAndFilt {
+    width: 18%;
+    height: 600px;
+}
+
+.block {
+    margin-bottom: 40px;
+}
+
+.content_block {
+    margin-top: 20px;
+}
+
+.wrapper_value_range {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.subBlock {
+    margin-bottom: 20px;
+}
+
+.header_block {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s;
+}
+
+.header_block:hover {
+        color: rgb(218, 187, 17);
+}
+
+@media screen and (max-width: 1199px) {
+    .catalog {
+        gap: 1%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog {
+        gap: 2%;
+    }
+}
