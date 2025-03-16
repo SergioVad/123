@@ -35,14 +35,14 @@ mongoose.set('strictQuery', false);
 async function start() {
     try {
         // if (config.get('localhost')) {
-            await mongoose.connect(
-                'mongodb://uskuez0i3iuni7whxnho:B1bwvGmm03CiEnVGiwBe@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/bs8zzjhjnhiz2va?replicaSet=rs0',
-            );
-            httpServer.listen(8080, () =>
-                console.log(
-                    chalk.green(`Server HTTP has been started on port 8080...`),
-                ),
-            );
+            // await mongoose.connect(
+            //     'mongodb://uskuez0i3iuni7whxnho:B1bwvGmm03CiEnVGiwBe@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/bs8zzjhjnhiz2va?replicaSet=rs0',
+            // );
+            // httpServer.listen(8080, () =>
+            //     console.log(
+            //         chalk.green(`Server HTTP has been started on port 8080...`),
+            //     ),
+            // );
         // } else {
             await mongoose.connect('mongodb://admin:12345@82.148.31.29:27017/');
             var httpsServer = https.createServer(
